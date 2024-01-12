@@ -1,0 +1,175 @@
+.banner {
+    width: 100%;
+    height: 65vh;
+    background-image: url(resource/slider_images/factory1.jpeg);
+    background-size: cover;
+    background-position: 40%;
+    position: fixed;
+}
+
+.banner-text {
+    padding-top: 100px;
+    margin-left: 50px;
+
+}
+
+.banner_text h2 {
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.banner_text h1 {
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+
+.back {
+    background-image: url("resource/back2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn {
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    background-color: black;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: yellow;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.c-item {
+    height: 90vh;
+}
+
+.c-img {
+    filter: brightness(0.7);
+
+}
+
+
+
+.benifite1 {
+
+    position: relative;
+    background: url(resource/coconutmilk.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+    
+}
+
+.benifite2 {
+
+    position: relative;
+    background: url(resource/Coconut\ Water.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+    
+}
+
+.benifite3 {
+    
+    position: relative;
+    background: url(resource/coconutoil.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+    
+}
+
+.container {
+
+    transform: translate(-50% -50%);
+    color: #fff;
+}
+
+.new1 {
+
+    position: relative;
+    background: url(resource/coconutoil.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+
+}
+
+.container1 {
+
+
+    transform: translate(-50% -50%);
+
+    color: #fff;
+}
+
+
+
+.pic {
+    cursor: pointer;
+   
+}
+
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    opacity: 0;
+    transition: 0.6s;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content:hover {
+    opacity: 1;
+
+}
+
+.content>* {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover>* {
+    transform: translateY(0);
+
+}
+
+.benifite4 {
+    
+    position: relative;
+    background: url(resource/event1.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+    
+}
+.benifite5 {
+    
+    position: relative;
+    background: url(resource/event2.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    overflow: hidden;
+    
+}
